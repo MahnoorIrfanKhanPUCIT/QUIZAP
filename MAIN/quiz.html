@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referre">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../CSS/quiz-style.css">
+    <title>QUIZAP</title>
+</head>
+<body class="main">
+    <div class="container">
+        <div class="quiz-container ">
+            <div class="quiz-head">
+                <h1 class="quiz-title">Let's Begin</h1>
+                <div class="quiz-score">
+                    <span id="correct-score"></span>/<span id="total-question"></span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <div id="username-container"></div>
+                <h2 class="quiz-question" id="question"><!--JavaScript's international standard is called?--></h2>
+                <ul class="quiz-options">
+                    <!-- <li>ECMA-262 Standard</li>
+                    <li>DHtml JavaScript Standard</li>
+                    <li>JavaScript 1.3 Standard</li>
+                    <li>ISO-262 Standard</li> -->
+                </ul>
+                <div id="result"></div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check Solution</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+            <div class="alert"></div>
+        </div>
+    </div>
+    <script src="../JS/app.js"></script>
+</body>
+</html>
